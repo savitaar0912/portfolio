@@ -210,12 +210,55 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Demand and Supply Management System [INFOSYS LTD.]",
+    role: "Senior Developer",
+    date: "Role-specific date if available",
+    description:
+      "Developed an internal web application to manage and visualize the demand and supply of employees based on their skills. Implemented features to track interview statuses, onboarding processes, and skill trends. Created dynamic charts and tables to display fulfillment status, interview progress, and demand trends. Enhanced decision-making with weekly, quarterly, and yearly comparisons of job level demand. Improved project staffing efficiency by providing insights into trending skills and most engaged demands.",
+    image: "https://www.researchgate.net/publication/361830584/figure/fig3/AS:11431281084474354@1663208015300/Graph-of-Growth-in-Technical-Skills.png",
+    tags: [
+      "Next.js",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Recharts",
+      "MUI",
+      "x-charts",
+    ],
+    category: "",
+    github: "", // Add GitHub URL if available
+  },
+  {
+    id: 1,
+    title: "UC Suits - Migration Manager Tool [UBS SWITZERLAND AG.]",
+    role: "Frontend Developer",
+    date: "Role-specific date if available",
+    description:
+      "Developed the user interface for a tool managing licenses, automating account creation and policy assignments, and validating dial plans and voice policies. Improved user efficiency by automating 80% of manual tasks and enhanced user experience, leading to a 20% increase in satisfaction.",
+    image: "https://thumbs.dreamstime.com/b/d-shield-icon-glowing-confidential-text-representing-data-security-341031150.jpg",
+    tags: ["React", "Redux"],
+    category: "",
+    github: "", // Add GitHub URL if available
+  },
+  {
+    id: 2,
+    title: "Migration from SfB to MS Teams - Configure Teams [CREDIT SUISSE AG]",
+    role: "Systems Engineer",
+    date: "Role-specific date if available",
+    description:
+      "Configured MS Teams for users migrated from Skype for Business, including setting up auto attendants and call queues in the MS Teams Admin Center. Streamlined user onboarding by automating configuration tasks with PowerShell and improved communication efficiency through effective setup of call management features.",
+    image: "https://etimg.etb2bimg.com/photo/98204677.cms",
+    tags: ["PowerShell", "MS Teams"],
+    category: "",
+    github: "", // Add GitHub URL if available
+  },
+  {
+    id: 3,
     title: "Amazon",
     date: "Jul 2023 - Jun 2023",
     description:
       "An Amazon clone with all the relevant features like Products, Checkout, Order History, Payment gateway using StripeJS",
-    image:
-      "Amazon.png",
+    image: "Amazon.png",
     tags: [
       "HTML",
       "CSS",
@@ -231,16 +274,18 @@ export const projects = [
     ],
     category: "live app",
     github: "https://github.com/savitaar0912/amazon",
-    webapp: ["https://fir-f4f2f.web.app/", "https://savitaar0912.github.io/amazon/"],
+    webapp: [
+      "https://fir-f4f2f.web.app/",
+      "https://savitaar0912.github.io/amazon/",
+    ],
   },
   {
-    id: 1,
-    title: "Disney+  Hotstar",
+    id: 4,
+    title: "Disney+ Hotstar",
     date: "Feb 2023 - Mar 2023",
     description:
-      "Disney+ Hotstar is an Indian subscription video-on-demand over-the-top streaming service owned by Disney India and operated by Disney Streaming, a subsidiary of the Disney Entertainment business segment of The Walt Disney Company, featuring domestic Indian film, television and sports content for India itself and its worldwide diaspora. It also includes imported content from and serves Southeast Asia as well.",
-    image:
-      "Hotstar.png",
+      "Disney+ Hotstar clone featuring Indian subscription video-on-demand service, covering domestic Indian film, television, sports content, and imported Southeast Asia content.",
+    image: "Hotstar.png",
     tags: [
       "HTML",
       "CSS",
@@ -248,76 +293,60 @@ export const projects = [
       "JavaScript",
       "Firebase",
       "ReactJS",
-      "Redux",],
+      "Redux",
+    ],
     category: "live app",
     github: "https://github.com/savitaar0912/hostar-clone",
     webapp: "https://hotstar-clone-553b2.web.app/",
   },
   {
-    id: 2,
+    id: 5,
     title: "Spotify",
     date: "Jan 2023 - Mar 2023",
     description:
-      "Spotify is a Swedish audio streaming and media services provider founded on 23 April 2006 by Daniel Ek and Martin Lorentzon. It is one of the largest music streaming service providers, with over 590 million monthly active users, including 226 million paying subscribers, as of September 2023. Spotify is listed (through a Luxembourg City-domiciled holding company, Spotify Technology S.A.) on the New York Stock Exchange in the form of American depositary receipts.",
-    image:
-      "Spotify.png",
-    tags: [
-      "HTML",
-      "CSS",
-      "Bootstrap",
-      "JavaScript",
-      "Firebase",
-      "ReactJS",
-    ],
+      "Spotify clone featuring Swedish audio streaming service with features for user subscriptions and active monthly users, using Firebase and React.",
+    image: "Spotify.png",
+    tags: ["HTML", "CSS", "Bootstrap", "JavaScript", "Firebase", "ReactJS"],
     category: "live app",
     github: "https://github.com/savitaar0912/Spotify-Clone",
     webapp: "https://spotify-3b610.web.app/",
   },
   {
-    id: 3,
+    id: 6,
     title: "Space-X",
     date: "May 2023 - Jun 2023",
     description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-    image:
-      "Space-X.png",
-    tags: [
-      "HTML",
-      "CSS",
-      "Bootstrap",
-      "JavaScript",
-      "Firebase",
-      "ReactJS",
-    ],
+      "Expense Tracking App on Playstore with 100+ Downloads. Features include budget planning and Google Drive Cloud API for user database backup, built using Kotlin in MVVM architecture.",
+    image: "Space-X.png",
+    tags: ["HTML", "CSS", "Bootstrap", "JavaScript", "Firebase", "ReactJS"],
     category: "live app",
     github: "https://github.com/savitaar0912/Space-X-Clone",
     webapp: "https://space-x-be5cd.web.app/",
   },
   {
-    id: 4,
+    id: 7,
     title: "Daily Buggle",
     date: "Mar 2022 - Apr 2022",
     description:
-      "A News app representing all genre of News. The main focus of this application is to connect news articles from all around the world and deliver it to user as fast as possible in best visualize way.",
-    image:
-      "DailyBuggle.png",
+      "News app representing all genres of news, connecting articles from around the world and delivering them to users efficiently and visually.",
+    image: "DailyBuggle.png",
     tags: ["HTML", "CSS", "Bootstrap", "ReactJS", "JavaScript"],
     category: "",
     github: "https://github.com/savitaar0912/Dailybuggle",
   },
   {
-    id: 5,
+    id: 8,
     title: "Text Editor",
     date: "Nov 2021",
     description:
-      "Text Editor is a free app that allows you to create, open, and edit text files on your computer and Google Drive. All standard text editor features are supported, including syntax highlighting, font size, word wrap, tabs and spaces, printing, undo/redo, keyboard shortcuts, and more.",
-    image:
-      "Texteditor.png",
+      "Free text editor app with features like syntax highlighting, font options, word wrap, printing, undo/redo, keyboard shortcuts, and Google Drive integration.",
+    image: "Texteditor.png",
     tags: ["HTML", "CSS", "Bootstrap", "ReactJS", "JavaScript"],
     category: "",
     github: "https://github.com/savitaar0912/Text-Editor",
   },
 ];
+
 
 export const TimeLineData = [
   { year: 2021, text: "Started my journey as Software Developer" },
