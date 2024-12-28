@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import _default from "../../themes/default";
 
 export const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
@@ -80,15 +79,20 @@ export const HeroRightContainer = styled.div`
   order: 2;
   justify-content: end;
   gap: 12px;
+  position: relative;
+  top: -20vh;
   @media (max-width: 960px) {
     order: 1;
     justify-content: center;
+    position: relative;
+    top: 5vh;
     align-items: center;
     margin-bottom: 80px;
   }
 
   @media (max-width: 640px) {
-    margin-bottom: 30px;
+    margin-bottom: 80px;
+    top: 0vh;
   }
 `;
 
