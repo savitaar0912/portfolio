@@ -114,7 +114,7 @@ export const skills = [
       {
         name: "Thunder Client",
         image:
-          "https://rangav.gallerycdn.vsassets.io/extensions/rangav/vscode-thunder-client/2.16.2/1700665237141/Microsoft.VisualStudio.Services.Icons.Default",
+          "https://rangav.gallerycdn.vsassets.io/extensions/rangav/vscode-thunder-client/2.33.1/1734381361338/Microsoft.VisualStudio.Services.Icons.Default",
       },
     ],
   },
