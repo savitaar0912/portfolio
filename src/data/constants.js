@@ -9,7 +9,7 @@ export const Bio = {
   description:
     "With over 3 years of IT experience in Full Stack Development, Testing, Documentation, Implementation, and Maintenance of applications, I am a dedicated and innovative Full Stack Developer specializing in the MERN stack. Skilled in crafting dynamic and responsive User Interfaces (UI) and enhancing User Experiences (UX) using ReactJS, I have a proven track record of delivering high-quality code and contributing positively to project success. Currently expanding my backend expertise with Node.js, Express.js, and MongoDB to build comprehensive, scalable applications. I am committed to continuous learning and professional growth, actively seeking opportunities to apply my ReactJS skills while deepening my proficiency in full-stack development.",
   github: "https://github.com/savitaar0912",
-  resume: "https://drive.google.com/file/d/1tnyWhw4u3GdMrMp13vR5So7dHqvpkA9K/view?usp=drive_link",
+  resume: "https://drive.google.com/drive/folders/1CIuoHteugsp2G9uce4qK_o0OYdono0wW?usp=share_link",
   linkedin: "https://www.linkedin.com/in/shashank-singh-7a8758199/",
   twitter: "https://twitter.com/savitaar875",
   insta: "https://www.instagram.com/_savitaar_/",
