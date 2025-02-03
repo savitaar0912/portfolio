@@ -13,6 +13,7 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
+import SpaceBackground from './components/SpaceBackground/index';
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -30,6 +31,8 @@ function App() {
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   console.log(openModal)
   return (
+    <>
+    <SpaceBackground/>
     <ThemeProvider theme={darkMode ? lightTheme : darkTheme}>
       <Router >
         <Navbar />
@@ -51,6 +54,7 @@ function App() {
         </Body>
       </Router>
     </ThemeProvider>
+    </>
   );
 }
 
