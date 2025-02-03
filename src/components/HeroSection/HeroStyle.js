@@ -158,8 +158,8 @@ export const Span = styled.span`
 `;
 
 export const SubTitle = styled.div`
-  font-size: 20px;
-  line-height: 32px;
+  font-size: 15px;
+  line-height: 30px;
   margin-bottom: 42px;
   color: ${({ theme }) => theme.text_primary + 95};
 
@@ -177,22 +177,24 @@ export const ResumeButton = styled.a`
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
+    border: 1.8px solid ${({ theme }) => theme.primary};
     text-decoration: none;
     width: 95%;
-    max-width: 300px;
+    max-width: max-content;
     text-align: center;
-    padding: 16px 0;
-    color:${({ theme }) => theme.white};
+    padding: 16px;
+    margin: auto;
+    color: ${({ theme }) => theme.primary};
     border-radius: 20px;
     cursor: pointer;
     font-size: 20px;
     font-weight: 600;
     transition: all 0.2s ease-in-out !important;
-    background: hsla(271, 100%, 50%, 1);
-    background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    box-shadow:  20px 20px 60px #1F2634,
+    // background: hsla(271, 100%, 50%, 1);
+    // background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    // background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    // background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    // box-shadow:  20px 20px 60px #1F2634,
     -20px -20px 60px #1F2634;
     &:hover {
         transform: scale(1.05);
@@ -203,7 +205,7 @@ export const ResumeButton = styled.a`
     
     
     @media (max-width: 640px) {
-        padding: 12px 0;
+        padding: 12px;
         font-size: 18px;
     } 
 

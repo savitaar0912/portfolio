@@ -9,7 +9,7 @@ export const Bio = {
   description:
     "With over 3 years of IT experience in Full Stack Development, Testing, Documentation, Implementation, and Maintenance of applications, I am a dedicated and innovative Full Stack Developer specializing in the MERN stack. Skilled in crafting dynamic and responsive User Interfaces (UI) and enhancing User Experiences (UX) using ReactJS, I have a proven track record of delivering high-quality code and contributing positively to project success. Currently expanding my backend expertise with Node.js, Express.js, and MongoDB to build comprehensive, scalable applications. I am committed to continuous learning and professional growth, actively seeking opportunities to apply my ReactJS skills while deepening my proficiency in full-stack development.",
   github: "https://github.com/savitaar0912",
-  resume: "https://drive.google.com/drive/folders/1CIuoHteugsp2G9uce4qK_o0OYdono0wW?usp=share_link",
+  resume: "https://drive.google.com/file/d/1D2lr4dL_48R0iw3-RXMGOEvMnr-Rh0u5/view?usp=share_link",
   linkedin: "https://www.linkedin.com/in/shashank-singh-7a8758199/",
   twitter: "https://twitter.com/savitaar875",
   insta: "https://www.instagram.com/_savitaar_/",
@@ -129,9 +129,11 @@ export const experiences = [
     date: "Sep 2024 - Present",
     desc: "Building responsive web applications using React.js, JavaScript, HTML5, and CSS3. Collaborating with cross-functional teams to implement efficient API integrations and state management with Redux. Ensuring optimized performance, browser compatibility, and adhering to best coding practices. Contributing to Agile processes, including sprints, code reviews, and daily stand-ups.",
     skills: [
+      "NextJS",
       "React JS",
       "JavaScript",
       "HTML",
+      "Tailwind CSS",
       "MUI",
       "Redux",
       "API Integration",

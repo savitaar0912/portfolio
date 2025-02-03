@@ -22,13 +22,13 @@ export const NavbarContainer = styled.div`
   height: 60px;
   z-index: 1;
   width: 100%;
-  padding: 0 24px;
+  padding: 0 35px;
   max-width: 1200px;
 `;
 
 export const NavLogo = styled(LinkR)`
     width: 80%;    
-    padding: 0 6px;
+    padding: 0 10px;
     display: flex;
     justify-content: start;
     align-items: center;

@@ -70,6 +70,9 @@ const TimelineSection = styled.div`
     align-items: center;
     justify-content: center;
     gap: 12px;
+    @media (max-width: 660px) {
+        align-items: start;
+    }
 `;
 
 
@@ -83,7 +86,7 @@ const index = () => {
                     Work experience as a Software Developer on different projects.
                 </Desc>
                 <TimelineSection>
-                    <Timeline>
+                    <Timeline >
                         {experiences.map((experience,index) => (
                             <TimelineItem>
                                 <TimelineSeparator>
