@@ -81,7 +81,7 @@ export const HeroRightContainer = styled.div`
   gap: 12px;
   position: relative;
   top: -10vh;
-  right: 5vw;
+  // right: 0vw;
   @media (max-width: 960px) {
     order: 1;
     justify-content: center;
@@ -199,6 +199,8 @@ export const ResumeButton = styled.a`
     -20px -20px 60px #1F2634;
     &:hover {
         transform: scale(1.05);
+      background: ${({ theme }) => theme.primary};
+      color: white;
     transition: all 0.4s ease-in-out;
     box-shadow:  20px 20px 60px #1F2634,
     filter: brightness(1);

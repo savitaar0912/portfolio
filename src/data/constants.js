@@ -273,8 +273,56 @@ export const projects = [
     category: "live app",
     github: "https://github.com/savitaar0912/amazon",
     webapp: [
-      "https://fir-f4f2f.web.app/",
-      "https://savitaar0912.github.io/amazon/",
+      "https://aclone-2c628.web.app"
+    ],
+  },
+  {
+    id: 9,
+    title: "Uber",
+    date: "Jan 2025 - Feb 2025",
+    description:
+      "An Uber clone with all the relevant features like Login, GoogleMaps, Location Auto Complete, Directions and Hard Coded Ride Fare",
+    image: "Uber.png",
+    tags: [
+      "HTML",
+      "Tailwind CSS",
+      "Material UI",
+      "JavaScript",
+      "NextJS",
+      "ReactJS",
+      "Redux",
+      "Firebase",
+    ],
+    category: "live app",
+    github: "https://github.com/savitaar0912/uber",
+    webapp: [
+      "https://uber-76a43.web.app"
+    ],
+  },
+  {
+    id: 10,
+    title: "WhatsApp",
+    date: "Aug 2024 - Sept 2024",
+    description:
+      "A WhatsApp clone with all the relevant features like Login, Multiple Users, Live Chat using Socket.io with Timing",
+    image: "Whatsapp.png",
+    tags: [
+      "HTML",
+      "Tailwind CSS",
+      "Material UI",
+      "JavaScript",
+      "ReactJS",
+      "Redux",
+      "Firebase",
+      "Socket.IO",
+      "MongoDB",
+      "NodeJS",
+      "ExpressJS",
+    ],
+    category: "",
+    github: "https://github.com/savitaar0912/whatsapp",
+    webapp: [
+      ""
     ],
   },
   {

@@ -90,13 +90,13 @@ function Footer() {
     <FooterContainer>
       <FooterWrapper>
         <Logo>Shashank Singh</Logo>
-        <Nav>
+        {/* <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
-        </Nav>
+        </Nav> */}
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.youtube} target="display"><YouTubeIcon /></SocialMediaIcon>
