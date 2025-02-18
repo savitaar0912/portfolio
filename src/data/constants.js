@@ -3,16 +3,16 @@ export const Bio = {
   roles: [
     "MERN Stack Developer",
     "React JS Developer",
-    "Youtuber",
     "Programmer",
+    "Youtuber",
   ],
   description:
     "With over 3 years of IT experience in Full Stack Development, Testing, Documentation, Implementation, and Maintenance of applications, I am a dedicated and innovative Full Stack Developer specializing in the MERN stack. Skilled in crafting dynamic and responsive User Interfaces (UI) and enhancing User Experiences (UX) using ReactJS, I have a proven track record of delivering high-quality code and contributing positively to project success. Currently expanding my backend expertise with Node.js, Express.js, and MongoDB to build comprehensive, scalable applications. I am committed to continuous learning and professional growth, actively seeking opportunities to apply my ReactJS skills while deepening my proficiency in full-stack development.",
   github: "https://github.com/savitaar0912",
   resume: "https://drive.google.com/file/d/1D2lr4dL_48R0iw3-RXMGOEvMnr-Rh0u5/view?usp=share_link",
-  linkedin: "https://www.linkedin.com/in/shashank-singh-7a8758199/",
+  linkedin: `https://www.linkedin.com/in/shashanksingh875/`,
   twitter: "https://twitter.com/savitaar875",
-  insta: "https://www.instagram.com/_savitaar_/",
+  insta: "https://www.instagram.com/codewithsavitaar/",
   facebook: "https://www.facebook.com/profile.php?viewas=100000686899395&id=100005332446091",
   youtube: "https://yt.openinapp.co/lhhz4",
 };

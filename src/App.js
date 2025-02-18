@@ -12,7 +12,7 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
-import SpaceBackground from './components/SpaceBackground/index';
+// import SpaceBackground from './components/SpaceBackground/index';
 import { useEffect } from "react";
 import './App.css';
 
@@ -58,10 +58,10 @@ function App() {
           </svg>
         </button>
       )}
-      <SpaceBackground />
+      {/* <SpaceBackground /> */}
       <ThemeProvider theme={darkMode ? lightTheme : darkTheme}>
         <Router >
-          <Navbar />
+          <Navbar darkMode={darkMode} setDarkMode={setDarkMode}/>
           <Body>
             <HeroSection />
             <Wrapper>

@@ -96,7 +96,8 @@ export const GitHubButton = styled.a`
 `;
 
 export const ButtonContainer = styled.div`
-  width: 80%;  
+  width: 80%;
+  margin-right: 1.5em;
   height: 100%;
   display: flex;
   justify-content: end;
