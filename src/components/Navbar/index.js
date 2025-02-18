@@ -26,7 +26,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
       <NavbarContainer>
         <NavLogo to='/'>
           <a style={{ display: "flex", alignItems: "center", marginBottom: '20;', cursor: 'pointer' }}>
-            <CodeIcon /><Dark style={{ fontSize: '1.5rem' }}>Shashank Singh</Dark><CodeOffIcon />
+            <CodeIcon /><Dark style={{fontSize: '1.3rem'}} >Shashank Singh</Dark><CodeOffIcon />
           </a>
         </NavLogo>
         <MobileIcon>
@@ -40,12 +40,12 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           <NavLink href='#experience'>Experience</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#education'>Education</NavLink>
+          <Dark>Dark Mode:</Dark>
+          <Switch onClick={getDark} />
         </NavItems>
         <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank" rel='noopener noreferrer'>Github Profile</GitHubButton>
         </ButtonContainer>
-        <Dark>Dark Mode:</Dark>
-        <Switch onClick={getDark} />
         {
           isOpen &&
           <MobileMenu isOpen={isOpen}>
@@ -64,6 +64,9 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
             }}>Education</MobileLink>
+            <Dark>Dark Mode:
+              <Switch onClick={getDark} />
+            </Dark>
             <GitHubButton style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }} href={Bio.github} target="_blank">Github Profile</GitHubButton>
           </MobileMenu>
         }
