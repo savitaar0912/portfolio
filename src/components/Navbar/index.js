@@ -1,5 +1,5 @@
 import React from 'react'
-import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
+import { Nav, NavLink, NavbarContainer, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
 import CodeIcon from '@mui/icons-material/Code';
 import CodeOffIcon from '@mui/icons-material/CodeOff';
 import { FaBars } from 'react-icons/fa';
@@ -25,7 +25,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-          <a style={{ display: "flex", alignItems: "center", marginBottom: '20;', cursor: 'pointer' }}>
+          <a style={{ display: "flex", alignItems: "center", marginBottom: '20;', cursor: 'pointer' }} href='/'>
             <CodeIcon /><Dark style={{fontSize: '1.3rem'}} >Shashank Singh</Dark><CodeOffIcon />
           </a>
         </NavLogo>
