@@ -12,7 +12,7 @@ export const Bio = {
   resume: "https://drive.google.com/drive/folders/1CIuoHteugsp2G9uce4qK_o0OYdono0wW?usp=drive_link",
   linkedin: `https://www.linkedin.com/in/shashanksingh875/`,
   twitter: "https://twitter.com/savitaar875",
-  insta: "https://www.instagram.com/codewithsavitaar/",
+  insta: "https://www.instagram.com/_savitaar_/",
   facebook: "https://www.facebook.com/profile.php?viewas=100000686899395&id=100005332446091",
   youtube: "https://yt.openinapp.co/6p5ek",
 };
