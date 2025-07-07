@@ -14,7 +14,7 @@ export const Bio = {
   twitter: "https://twitter.com/savitaar875",
   insta: "https://www.instagram.com/codewithsavitaar/",
   facebook: "https://www.facebook.com/profile.php?viewas=100000686899395&id=100005332446091",
-  youtube: "https://yt.openinapp.co/lhhz4",
+  youtube: "https://yt.openinapp.co/6p5ek",
 };
 
 export const skills = [
