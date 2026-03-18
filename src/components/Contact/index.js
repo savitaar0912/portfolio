@@ -128,16 +128,37 @@ const Contact = () => {
   const [open, setOpen] = React.useState(false);
   const form = useRef();
 
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
-      .then((result) => {
+
+    // 1. Send email to YOU
+    emailjs.sendForm(
+      'service_z80wfyf',
+      'template_64s0hd8',
+      form.current,
+      'I4sKHuRdjI2D0_HHp'
+    )
+      .then(() => {
+        console.log("Main email sent");
+
+        // 2. Send auto-reply to USER
+        return emailjs.sendForm(
+          'service_z80wfyf',
+          'template_nxucpzb', // auto-reply template
+          form.current,
+          'I4sKHuRdjI2D0_HHp'
+        );
+      })
+      .then(() => {
+        console.log("Auto-reply sent");
         setOpen(true);
         form.current.reset();
-      }, (error) => {
-        console.log(error.text);
+      })
+      .catch((error) => {
+        console.log("ERROR:", error);
       });
-  }
+  };
 
 
 
@@ -157,7 +178,7 @@ const Contact = () => {
         <Snackbar
           open={open}
           autoHideDuration={6000}
-          onClose={()=>setOpen(false)}
+          onClose={() => setOpen(false)}
           message="Email sent successfully!"
           severity="success"
         />
