@@ -9,7 +9,7 @@ export const Bio = {
     "Senior Frontend Developer with 4+ years of experience building scalable, high-performance web applications using React.js (Hooks, Context API, Redux), Next.js, and Angular. Proven track record of automating 80%+ of manual workflows and improving user satisfaction by 20%+ in enterprise environments. Deep expertise in component-based architecture, state management, REST API integration, performance optimization (Core Web Vitals, lazy loading, memoization), and responsive UI development. Strong cross-browser compatibility awareness and accessibility (WCAG) practices. Actively expanding DSA knowledge to write more efficient JavaScript/TypeScript logic. Experienced with Jenkins deployment, Resolving SonarQube Issues and AI-assisted development workflows in Agile teams.",
   github: "https://github.com/savitaar0912",
   resume: "https://drive.google.com/drive/folders/1CIuoHteugsp2G9uce4qK_o0OYdono0wW?usp=drive_link",
-  linkedin: `https://www.linkedin.com/in/shashanksingh875/`,
+  linkedin: `https://www.linkedin.com/in/singhshashank875/`,
   twitter: "https://twitter.com/savitaar875",
   insta: "https://www.instagram.com/_savitaar_/",
   facebook: "https://www.facebook.com/profile.php?viewas=100000686899395&id=100005332446091",
