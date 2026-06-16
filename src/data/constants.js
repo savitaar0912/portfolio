@@ -435,15 +435,7 @@ export const projects = [
     date: "Jun 2026",
     description:
       "A full-stack developer community platform featuring secure JWT authentication with refresh token rotation, real-time feed updates using Server-Sent Events (SSE), infinite scrolling, user profiles, follow/unfollow functionality, likes, notifications, image uploads via Cloudinary, and a modern responsive UI powered by React Query and Zustand.",
-    image: "/public/Pulse.png",
-    member: [
-      {
-        name: "Shashank Singh",
-        img: "/public/Pulse.png",
-        github: "https://github.com/savitaar0912",
-        linkedin: "https://www.linkedin.com/in/singhshashank875/",
-      },
-    ],
+    image: "Pulse.png",
     tags: [
       "ReactJS",
       "Tailwind CSS",
