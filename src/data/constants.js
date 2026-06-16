@@ -388,147 +388,147 @@ export const projects = [
     category: "",
     github: "", // Add GitHub URL if available
   },
-  // {
-  //   id: 3,
-  //   title: "Amazon",
-  //   date: "Jul 2023 - Jun 2023",
-  //   description:
-  //     "An Amazon clone with all the relevant features like Products, Checkout, Order History, Payment gateway using StripeJS",
-  //   image: "Amazon.png",
-  //   tags: [
-  //     "HTML",
-  //     "CSS",
-  //     "Bootstrap",
-  //     "JavaScript",
-  //     "MongoDB",
-  //     "Firebase",
-  //     "NodeJs",
-  //     "ExpressJS",
-  //     "ReactJS",
-  //     "Redux",
-  //     "Stripe.JS",
-  //   ],
-  //   category: "live app",
-  //   github: "https://github.com/savitaar0912/amazon",
-  //   webapp: [
-  //     "https://aclone-2c628.web.app"
-  //   ],
-  // },
-  // {
-  //   id: 9,
-  //   title: "Uber",
-  //   date: "Jan 2025 - Feb 2025",
-  //   description:
-  //     "An Uber clone with all the relevant features like Login, GoogleMaps, Location Auto Complete, Directions and Hard Coded Ride Fare",
-  //   image: "Uber.png",
-  //   tags: [
-  //     "HTML",
-  //     "Tailwind CSS",
-  //     "Material UI",
-  //     "JavaScript",
-  //     "NextJS",
-  //     "ReactJS",
-  //     "Redux",
-  //     "Firebase",
-  //   ],
-  //   category: "live app",
-  //   github: "https://github.com/savitaar0912/uber",
-  //   webapp: [
-  //     "https://uber-76a43.web.app"
-  //   ],
-  // },
-  // {
-  //   id: 10,
-  //   title: "WhatsApp",
-  //   date: "Aug 2024 - Sept 2024",
-  //   description:
-  //     "A WhatsApp clone with all the relevant features like Login, Multiple Users, Live Chat using Socket.io with Timing",
-  //   image: "Whatsapp.png",
-  //   tags: [
-  //     "HTML",
-  //     "Tailwind CSS",
-  //     "Material UI",
-  //     "JavaScript",
-  //     "ReactJS",
-  //     "Redux",
-  //     "Firebase",
-  //     "Socket.IO",
-  //     "MongoDB",
-  //     "NodeJS",
-  //     "ExpressJS",
-  //   ],
-  //   category: "",
-  //   github: "https://github.com/savitaar0912/whatsapp",
-  //   webapp: [
-  //     ""
-  //   ],
-  // },
-  // {
-  //   id: 4,
-  //   title: "Disney+ Hotstar",
-  //   date: "Feb 2023 - Mar 2023",
-  //   description:
-  //     "Disney+ Hotstar clone featuring Indian subscription video-on-demand service, covering domestic Indian film, television, sports content, and imported Southeast Asia content.",
-  //   image: "Hotstar.png",
-  //   tags: [
-  //     "HTML",
-  //     "CSS",
-  //     "Bootstrap",
-  //     "JavaScript",
-  //     "Firebase",
-  //     "ReactJS",
-  //     "Redux",
-  //   ],
-  //   category: "live app",
-  //   github: "https://github.com/savitaar0912/hostar-clone",
-  //   webapp: "https://hotstar-clone-553b2.web.app/",
-  // },
-  // {
-  //   id: 5,
-  //   title: "Spotify",
-  //   date: "Jan 2023 - Mar 2023",
-  //   description:
-  //     "Spotify clone featuring Swedish audio streaming service with features for user subscriptions and active monthly users, using Firebase and React.",
-  //   image: "Spotify.png",
-  //   tags: ["HTML", "CSS", "Bootstrap", "JavaScript", "Firebase", "ReactJS"],
-  //   category: "live app",
-  //   github: "https://github.com/savitaar0912/Spotify-Clone",
-  //   webapp: "https://spotify-3b610.web.app/",
-  // },
-  // {
-  //   id: 6,
-  //   title: "Space-X",
-  //   date: "May 2023 - Jun 2023",
-  //   description:
-  //     "Expense Tracking App on Playstore with 100+ Downloads. Features include budget planning and Google Drive Cloud API for user database backup, built using Kotlin in MVVM architecture.",
-  //   image: "Space-X.png",
-  //   tags: ["HTML", "CSS", "Bootstrap", "JavaScript", "Firebase", "ReactJS"],
-  //   category: "live app",
-  //   github: "https://github.com/savitaar0912/Space-X-Clone",
-  //   webapp: "https://space-x-be5cd.web.app/",
-  // },
-  // {
-  //   id: 7,
-  //   title: "Daily Buggle",
-  //   date: "Mar 2022 - Apr 2022",
-  //   description:
-  //     "News app representing all genres of news, connecting articles from around the world and delivering them to users efficiently and visually.",
-  //   image: "DailyBuggle.png",
-  //   tags: ["HTML", "CSS", "Bootstrap", "ReactJS", "JavaScript"],
-  //   category: "",
-  //   github: "https://github.com/savitaar0912/Dailybuggle",
-  // },
-  // {
-  //   id: 8,
-  //   title: "Text Editor",
-  //   date: "Nov 2021",
-  //   description:
-  //     "Free text editor app with features like syntax highlighting, font options, word wrap, printing, undo/redo, keyboard shortcuts, and Google Drive integration.",
-  //   image: "Texteditor.png",
-  //   tags: ["HTML", "CSS", "Bootstrap", "ReactJS", "JavaScript"],
-  //   category: "",
-  //   github: "https://github.com/savitaar0912/Text-Editor",
-  // },
+  {
+    id: 3,
+    title: "Amazon",
+    date: "Jul 2023 - Jun 2023",
+    description:
+      "An Amazon clone with all the relevant features like Products, Checkout, Order History, Payment gateway using StripeJS",
+    image: "Amazon.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JavaScript",
+      "MongoDB",
+      "Firebase",
+      "NodeJs",
+      "ExpressJS",
+      "ReactJS",
+      "Redux",
+      "Stripe.JS",
+    ],
+    category: "live app",
+    github: "https://github.com/savitaar0912/amazon",
+    webapp: [
+      "https://aclone-2c628.web.app"
+    ],
+  },
+  {
+    id: 9,
+    title: "Uber",
+    date: "Jan 2025 - Feb 2025",
+    description:
+      "An Uber clone with all the relevant features like Login, GoogleMaps, Location Auto Complete, Directions and Hard Coded Ride Fare",
+    image: "Uber.png",
+    tags: [
+      "HTML",
+      "Tailwind CSS",
+      "Material UI",
+      "JavaScript",
+      "NextJS",
+      "ReactJS",
+      "Redux",
+      "Firebase",
+    ],
+    category: "live app",
+    github: "https://github.com/savitaar0912/uber",
+    webapp: [
+      "https://uber-76a43.web.app"
+    ],
+  },
+  {
+    id: 10,
+    title: "WhatsApp",
+    date: "Aug 2024 - Sept 2024",
+    description:
+      "A WhatsApp clone with all the relevant features like Login, Multiple Users, Live Chat using Socket.io with Timing",
+    image: "Whatsapp.png",
+    tags: [
+      "HTML",
+      "Tailwind CSS",
+      "Material UI",
+      "JavaScript",
+      "ReactJS",
+      "Redux",
+      "Firebase",
+      "Socket.IO",
+      "MongoDB",
+      "NodeJS",
+      "ExpressJS",
+    ],
+    category: "",
+    github: "https://github.com/savitaar0912/whatsapp",
+    webapp: [
+      ""
+    ],
+  },
+  {
+    id: 4,
+    title: "Disney+ Hotstar",
+    date: "Feb 2023 - Mar 2023",
+    description:
+      "Disney+ Hotstar clone featuring Indian subscription video-on-demand service, covering domestic Indian film, television, sports content, and imported Southeast Asia content.",
+    image: "Hotstar.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JavaScript",
+      "Firebase",
+      "ReactJS",
+      "Redux",
+    ],
+    category: "live app",
+    github: "https://github.com/savitaar0912/hostar-clone",
+    webapp: "https://hotstar-clone-553b2.web.app/",
+  },
+  {
+    id: 5,
+    title: "Spotify",
+    date: "Jan 2023 - Mar 2023",
+    description:
+      "Spotify clone featuring Swedish audio streaming service with features for user subscriptions and active monthly users, using Firebase and React.",
+    image: "Spotify.png",
+    tags: ["HTML", "CSS", "Bootstrap", "JavaScript", "Firebase", "ReactJS"],
+    category: "live app",
+    github: "https://github.com/savitaar0912/Spotify-Clone",
+    webapp: "https://spotify-3b610.web.app/",
+  },
+  {
+    id: 6,
+    title: "Space-X",
+    date: "May 2023 - Jun 2023",
+    description:
+      "Expense Tracking App on Playstore with 100+ Downloads. Features include budget planning and Google Drive Cloud API for user database backup, built using Kotlin in MVVM architecture.",
+    image: "Space-X.png",
+    tags: ["HTML", "CSS", "Bootstrap", "JavaScript", "Firebase", "ReactJS"],
+    category: "live app",
+    github: "https://github.com/savitaar0912/Space-X-Clone",
+    webapp: "https://space-x-be5cd.web.app/",
+  },
+  {
+    id: 7,
+    title: "Daily Buggle",
+    date: "Mar 2022 - Apr 2022",
+    description:
+      "News app representing all genres of news, connecting articles from around the world and delivering them to users efficiently and visually.",
+    image: "DailyBuggle.png",
+    tags: ["HTML", "CSS", "Bootstrap", "ReactJS", "JavaScript"],
+    category: "",
+    github: "https://github.com/savitaar0912/Dailybuggle",
+  },
+  {
+    id: 8,
+    title: "Text Editor",
+    date: "Nov 2021",
+    description:
+      "Free text editor app with features like syntax highlighting, font options, word wrap, printing, undo/redo, keyboard shortcuts, and Google Drive integration.",
+    image: "Texteditor.png",
+    tags: ["HTML", "CSS", "Bootstrap", "ReactJS", "JavaScript"],
+    category: "",
+    github: "https://github.com/savitaar0912/Text-Editor",
+  },
 ];
 
 
