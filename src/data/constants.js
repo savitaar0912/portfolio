@@ -457,6 +457,27 @@ export const projects = [
     webapp: ["https://pulse-client-six.vercel.app"],
   },
   {
+    id: 11,
+    title: "Vibez Estates",
+    date: "Jun 2026",
+    description:
+      "A modern real estate website showcasing managed farmlands, luxury villas, and revenue-generating property opportunities. Features immersive project pages, property highlights, investment-focused content, responsive navigation, animated sections, enquiry and demo forms, and direct WhatsApp and call integrations for prospective buyers.",
+    image: "VibezEstate.png",
+    tags: [
+      "ReactJS",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "JavaScript",
+      "Vite",
+      "Framer Motion",
+      "Responsive Design",
+    ],
+    category: "live app",
+    github: "https://github.com/savitaar0912/VIBEZZ",
+    webapp: "https://vibezestates.com/",
+  },
+  {
     id: 3,
     title: "Amazon",
     date: "Jul 2023 - Jun 2023",
