@@ -118,6 +118,12 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+  cursor: pointer;
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
 `
 
 
@@ -126,11 +132,28 @@ const Contact = () => {
 
   //hooks
   const [open, setOpen] = React.useState(false);
+  const [formData, setFormData] = React.useState({
+    from_email: '',
+    from_name: '',
+    subject: '',
+    message: '',
+  });
   const form = useRef();
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((current) => ({ ...current, [name]: value }));
+  };
+
+  const isFormValid = Object.values(formData).every(
+    (value) => value.trim().length > 0
+  );
 
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (!isFormValid) return;
 
     // 1. Send email to YOU
     emailjs.sendForm(
@@ -154,6 +177,7 @@ const Contact = () => {
         console.log("Auto-reply sent");
         setOpen(true);
         form.current.reset();
+        setFormData({ from_email: '', from_name: '', subject: '', message: '' });
       })
       .catch((error) => {
         console.log("ERROR:", error);
@@ -169,11 +193,37 @@ const Contact = () => {
         <Desc>Feel free to reach out to me for any Queries or Opportunities!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
-          <ContactButton type="submit" value="Send" />
+          <ContactInput
+            type="email"
+            placeholder="Your Email"
+            name="from_email"
+            value={formData.from_email}
+            onChange={handleChange}
+            required
+          />
+          <ContactInput
+            placeholder="Your Name"
+            name="from_name"
+            value={formData.from_name}
+            onChange={handleChange}
+            required
+          />
+          <ContactInput
+            placeholder="Subject"
+            name="subject"
+            value={formData.subject}
+            onChange={handleChange}
+            required
+          />
+          <ContactInputMessage
+            placeholder="Message"
+            rows="4"
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
+            required
+          />
+          <ContactButton type="submit" value="Send" disabled={!isFormValid} />
         </ContactForm>
         <Snackbar
           open={open}
